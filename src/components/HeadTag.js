@@ -10,7 +10,10 @@ const HeadTag = () => {
                 <meta property="og:type" content="article" />
                 <meta property="og:title" content="GrapgQL Placeholder" />
                 <meta property="og:description" content="Fake graphql api for testing and prototyping" />
-                <meta property="og:image" content="https://www.graphqlplaceholder.com/images/og.png" />
+                <meta
+                    property="og:image"
+                    content="https://raw.githubusercontent.com/graphql-placeholder/website/master/static/images/og.png"
+                />
             </Helmet>
         </div>
     )
