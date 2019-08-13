@@ -23,6 +23,7 @@ const Index = () => {
                 <a href="https://blog-grapgql-server.now.sh/">https://blog-grapgql-server.now.sh/</a>
             </h3>
             <StyledContents>
+                <p>TypeDefs:</p>
                 <TypeDefs />
             </StyledContents>
         </Layout>
