@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Header from './Header'
+import HeadTag from './HeadTag'
 
 const StyledLayout = styled.div`
     max-width: 1170px;
@@ -11,6 +12,7 @@ const StyledLayout = styled.div`
 const Layout = ({ children }) => {
     return (
         <StyledLayout>
+            <HeadTag />
             <Header />
             {children}
         </StyledLayout>
