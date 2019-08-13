@@ -14,19 +14,30 @@ const StyledContents = styled.div`
     }
 `
 
+const StyledApiUrl = styled.div`
+    width: 350px;
+    margin: auto;
+    background: rgba(229, 52, 171, 1);
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+
+    margin-top: 35px;
+    margin-bottom: 65px;
+
+    a {
+        color: #fff;
+    }
+`
+
 const Index = () => {
     return (
         <Layout>
-            <Helmet>
-                <title>GrapgQL Placeholder | Fake graphql api for testing and prototyping</title>
-            </Helmet>
-            <h3 className="text-center">
-                <span className="hand">👇</span>
-
+            <StyledApiUrl>
+                <span className="hand">👇 Goto Playground</span>
                 <br />
-
-                <a href="https://blog-grapgql-server.now.sh/">https://blog-grapgql-server.now.sh/</a>
-            </h3>
+                <a href="https://api.graphqlplaceholder.com">api.graphqlplaceholder.com</a>
+            </StyledApiUrl>
             <StyledContents>
                 <p>TypeDefs:</p>
                 <TypeDefs />
