@@ -1,3 +1,3 @@
 module.exports = {
-    plugins: [`gatsby-plugin-sass`, `gatsby-plugin-styled-components`],
+    plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-sass`, `gatsby-plugin-styled-components`],
 }

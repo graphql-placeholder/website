@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <StyledHeader>
             <img src="images/logo.png" alt="logo" />
-            <h2 className="name">Graphql Placeholder</h2>
+            <h2 className="name">GraphQL Placeholder</h2>
             <p>Fake graphql api for testing and prototyping</p>
         </StyledHeader>
     )

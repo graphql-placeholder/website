@@ -3,6 +3,8 @@ import Layout from '../components/Layout'
 import TypeDefs from '../components/TypeDefs'
 import styled from 'styled-components'
 
+import { Helmet } from 'react-helmet'
+
 const StyledContents = styled.div`
     width: 65%;
     margin: auto;
@@ -15,6 +17,9 @@ const StyledContents = styled.div`
 const Index = () => {
     return (
         <Layout>
+            <Helmet>
+                <title>GrapgQL Placeholder | Fake graphql api for testing and prototyping</title>
+            </Helmet>
             <h3 className="text-center">
                 <span className="hand">👇</span>
 
