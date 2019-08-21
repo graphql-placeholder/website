@@ -14,6 +14,7 @@ const HeadTag = () => {
                     property="og:image"
                     content="https://raw.githubusercontent.com/graphql-placeholder/website/master/static/images/og.png"
                 />
+                <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet" />
             </Helmet>
         </div>
     )

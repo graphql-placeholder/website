@@ -4,6 +4,9 @@ import TypeDefs from '../components/TypeDefs'
 import styled from 'styled-components'
 
 import { Helmet } from 'react-helmet'
+import GoldSponsor from '../components/sponsors/GoldSponsor'
+import '../styles/app.scss'
+import SilverSponsor from '../components/sponsors/SilverSponsor'
 
 const StyledContents = styled.div`
     width: 65%;
@@ -33,11 +36,14 @@ const StyledApiUrl = styled.div`
 const Index = () => {
     return (
         <Layout>
+            <GoldSponsor />
+
             <StyledApiUrl>
                 <span className="hand">👇 Goto Playground</span>
                 <br />
                 <a href="https://api.graphqlplaceholder.com">api.graphqlplaceholder.com</a>
             </StyledApiUrl>
+            {/* <SilverSponsor /> */}
             <StyledContents>
                 <p>TypeDefs:</p>
                 <TypeDefs />
